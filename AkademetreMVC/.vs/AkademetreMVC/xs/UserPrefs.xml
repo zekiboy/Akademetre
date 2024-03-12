@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{60BD5E80-50CA-48F5-8F16-B3210350D831}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AkademetreMVC.csproj">
+    <Files>
+      <File FileName="AkademetreMVC.csproj" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Akademetre" expanded="True">
+            <Node name="AkademetreMVC" selected="True" />
+          </Node>
+          <Node name="AkademetreMVC" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

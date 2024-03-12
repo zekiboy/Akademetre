@@ -1,0 +1,44 @@
+﻿@model List<User>
+
+@{
+    ViewData["Title"] = "User List";
+}
+<br>
+<br>
+<b>NEW USER: </b>
+<a href="/Home/AddUser" class="btn btn-success btn-sm">ADD</a>
+&nbsp;
+<b>EXCEL: </b>
+<a href="/Home/DownloadExcel" class="btn btn-success btn-sm">DOWNLOAD</a>
+<br>
+<br>
+
+<h1>User List</h1>
+
+<table id="userTable" class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Address</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Surname</td>
+                <td>@user.Address</td>
+                <td>@user.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts {
+    <script>$(document).ready(function () {
+            $('#userTable').DataTable();
+        });</script>
+}

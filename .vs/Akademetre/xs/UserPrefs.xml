@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{7490FDEC-FC3B-4C81-9E3A-4180A6805951}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AkademetreMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AkademetreMVC/AkademetreMVC.csproj">
+    <Files>
+      <File FileName="AkademetreMVC/AkademetreMVC.csproj" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Akademetre" expanded="True">
+            <Node name="AkademetreMVC" selected="True" />
+          </Node>
+          <Node name="AkademetreMVC" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
